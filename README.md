@@ -2,7 +2,7 @@
 
 [![llamaware-agent](https://github.com/harpertoken/llamaware/actions/workflows/llamaware-agent.yml/badge.svg)](https://github.com/harpertoken/llamaware/actions/workflows/llamaware-agent.yml)
 
-**Llamaware** is a professional AI agent for development, built for **stability, extensibility, and security**. It provides core features for file operations, session handling, extensions, AI provider support, and automated GitHub repository management.
+**Llamaware**  is a professional AI agent for development, built for **stability, extensibility, and security**. It provides core features for file operations, session handling, extensions, AI provider support, and automated GitHub repository management.
 
 ## System Requirements
 
