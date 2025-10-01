@@ -15,7 +15,8 @@ elif [ "$MOCK_TYPE" = "together" ]; then
     RESPONSE='{"choices": [{"message": {"content": "Mock Together AI response"}}]}'
     ENDPOINT="/v1/chat/completions"
 elif [ "$MOCK_TYPE" = "cerebras" ]; then
-    RESPONSE='{"choices": [{"message": {"content": "Mock Cerebras response"}}]}'
+    RESPONSE='data: {"choices": [{"delta": {"content": "Mock Cerebras response"}}]}
+data: [DONE]'
     ENDPOINT="/v1/chat/completions"
 elif [ "$MOCK_TYPE" = "deepseek" ]; then
     RESPONSE='{"choices": [{"message": {"content": "Mock DeepSeek response"}}]}'
